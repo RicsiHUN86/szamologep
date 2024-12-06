@@ -25,7 +25,7 @@ namespace naonjo
             double szam2 = (double)numericUpDown2.Value;
 
             double osszeg = szam1 + szam2;
-            MessageBox.Show($"Az összeg: {osszeg}");
+            MessageBox.Show($"Az eredmény: {osszeg}");
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -35,7 +35,7 @@ namespace naonjo
             double szam2 = (double)numericUpDown2.Value;
 
             double result = szam1 - szam2;
-            MessageBox.Show($"A különbség: {result}");
+            MessageBox.Show($"Az eredmény: {result}");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -45,7 +45,7 @@ namespace naonjo
             double szam2 = (double)numericUpDown2.Value;
 
             double result = szam1 * szam2;
-            MessageBox.Show($"A szorzat: {result}");
+            MessageBox.Show($"Az eredmény: {result}");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -57,7 +57,7 @@ namespace naonjo
             if (szam2 != 0)
             {
                 double result = szam1 / szam2;
-                MessageBox.Show($"Az osztás eredménye: {result}");
+                MessageBox.Show($"Az eredmény: {result}");
             }
             else
             {
