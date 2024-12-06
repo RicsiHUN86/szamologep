@@ -31,32 +31,32 @@ namespace naonjo
         private void button4_Click(object sender, EventArgs e)
         {
             // Kivonás
-            double num1 = (double)numericUpDown1.Value;
-            double num2 = (double)numericUpDown2.Value;
+            double szam1 = (double)numericUpDown1.Value;
+            double szam2 = (double)numericUpDown2.Value;
 
-            double result = num1 - num2;
+            double result = szam1 - szam2;
             MessageBox.Show($"A különbség: {result}");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             // Szorzás
-            double num1 = (double)numericUpDown1.Value;
-            double num2 = (double)numericUpDown2.Value;
+            double szam1 = (double)numericUpDown1.Value;
+            double szam2 = (double)numericUpDown2.Value;
 
-            double result = num1 * num2;
+            double result = szam1 * szam2;
             MessageBox.Show($"A szorzat: {result}");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             // Osztás
-            double num1 = (double)numericUpDown1.Value;
-            double num2 = (double)numericUpDown2.Value;
+            double szam1 = (double)numericUpDown1.Value;
+            double szam2 = (double)numericUpDown2.Value;
 
-            if (num2 != 0)
+            if (szam2 != 0)
             {
-                double result = num1 / num2;
+                double result = szam1 / szam2;
                 MessageBox.Show($"Az osztás eredménye: {result}");
             }
             else
